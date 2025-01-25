@@ -281,12 +281,6 @@ footer a:hover {
     text-align: center;
   }
 
-  footer ol {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-
   main {
     padding: 1rem;
   }
