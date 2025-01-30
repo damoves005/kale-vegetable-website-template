@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block access to specific files or directories if needed
+# Disallow: /private/
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://kale-nutrition.netlify.app/sitemap.xml
