@@ -1,9 +1,5 @@
 User-agent: *
 Allow: /
-Allow: /#benefits
-Allow: /#nutrition
-Allow: /#tips
-Allow: /#about
 
 # Allow access to essential resources
 Allow: /css/
