@@ -1,5 +1,21 @@
+# Kale Chronicles Robots.txt
 User-agent: *
 Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Prevent crawling of non-public pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*?*
+
+# Crawl-delay directive
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://kalechronicles.ca/sitemap.xml
 
 # Allow access to essential resources
 Allow: /css/
