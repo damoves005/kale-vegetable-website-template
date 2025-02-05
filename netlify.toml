@@ -1,0 +1,23 @@
+# Netlify configuration file
+
+# Global headers for XML files
+[[headers]]
+  for = "*.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    X-Content-Type-Options = "nosniff"
+    Access-Control-Allow-Origin = "*"
+
+# Specific headers for sitemap.xml
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    X-Content-Type-Options = "nosniff"
+    Cache-Control = "public, max-age=3600"
+
+# Force uncompressed serving for XML files
+[[headers]]
+  for = "/*.xml"
+  [headers.values]
+    Content-Encoding = "identity"
