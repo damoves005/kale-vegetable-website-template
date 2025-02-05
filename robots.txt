@@ -1,4 +1,4 @@
-# Kale Chronicles Robots.txt
+# Kale Nutrition Robots.txt
 User-agent: *
 Allow: /
 Allow: /css/
@@ -13,14 +13,6 @@ Disallow: /*?*
 
 # Crawl-delay directive
 Crawl-delay: 10
-
-# Sitemap location
-Sitemap: https://kalechronicles.ca/sitemap.xml
-
-# Allow access to essential resources
-Allow: /css/
-Allow: /js/
-Allow: /img/
 
 # Sitemap location
 Sitemap: https://kale-nutrition.netlify.app/sitemap.xml
