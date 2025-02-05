@@ -232,9 +232,34 @@
 				<li><a href="#faq">FAQ</a></li>
 				<li><a href="#">Connect on LinkedIn</a></li>
 				<li><a href="mailto:kate@kalechronicles.ca">Contact Kate</a></li>
+				<li><a href="privacy.txt">Privacy</a></li>
 			</ol>
 		</div>
 	</footer>
+	<!-- Code for the Cookie Compliance popover window -->
+	<div id="cookie-notice" style="display: none;">
+		<div class="cookie-content">
+			<p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of
+				cookies.
+				<a href="privacy.txt" target="_blank">Learn more</a>
+			</p>
+			<button id="cookie-accept">Accept</button>
+		</div>
+	</div>
+
+	<!-- JavaScript to load cookies modal window -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			if (!localStorage.getItem('cookiesAccepted')) {
+				document.getElementById('cookie-notice').style.display = 'block';
+			}
+
+			document.getElementById('cookie-accept').addEventListener('click', function () {
+				localStorage.setItem('cookiesAccepted', 'true');
+				document.getElementById('cookie-notice').style.display = 'none';
+			});
+		});
+	</script>
 </body>
 
 </html>
