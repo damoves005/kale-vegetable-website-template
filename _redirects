@@ -1,2 +1,2 @@
-/sitemap.xml  /sitemap.xml  200!  Content-Type=application/xml
-/*.xml  /:splat  200
+/sitemap.xml  /sitemap.xml  200!  Content-Type=application/xml;charset=utf-8
+/* /index.html 200
