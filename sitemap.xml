@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-  <loc>https://kale-nutrition.netlify.app</loc>
-  <lastmod>2025-02-11T21:37:46+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://kale-nutrition.netlify.app/privacy.txt</loc>
-  <lastmod>2025-02-11T21:37:46+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://kale-nutrition.netlify.app/</loc>
+    <lastmod>2025-02-11T21:37:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://kale-nutrition.netlify.app/privacy.txt</loc>
+    <lastmod>2025-02-11T21:37:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>
