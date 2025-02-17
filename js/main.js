@@ -8,6 +8,26 @@ btn.addEventListener("click", function () {
   this.classList.toggle("active");
 });
 
+// Scroll to top functionality
+const scrollTopBtn = document.querySelector(".scroll-top");
+
+// Show button when scrolling down
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    scrollTopBtn.classList.add("visible");
+  } else {
+    scrollTopBtn.classList.remove("visible");
+  }
+});
+
+// Smooth scroll to top when clicked
+scrollTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
 // Close navigation when clicking links
 const navLinks = document.querySelectorAll("nav a");
 navLinks.forEach((link) => {
