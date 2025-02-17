@@ -5,6 +5,7 @@ const nav = document.querySelector("nav");
 // Toggle navigation
 btn.addEventListener("click", function () {
   nav.classList.toggle("show-nav");
+  this.classList.toggle("active");
 });
 
 // Close navigation when clicking links
@@ -12,6 +13,7 @@ const navLinks = document.querySelectorAll("nav a");
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
     nav.classList.remove("show-nav");
+    btn.classList.remove("active");
   });
 });
 
@@ -23,6 +25,7 @@ document.addEventListener("click", (e) => {
     nav.classList.contains("show-nav")
   ) {
     nav.classList.remove("show-nav");
+    btn.classList.remove("active");
   }
 });
 
