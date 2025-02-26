@@ -426,6 +426,28 @@ footer a:hover {
   opacity: 0.8;
 }
 
+/* Social Icons */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all var(--transition-speed);
+}
+
+.social-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.social-icon:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-3px);
+}
+
 /* Responsive Design */
 @media (min-width: 800px) {
   .toggle-nav {
