@@ -525,18 +525,38 @@ footer a:hover {
   }
 
   nav ul {
-    padding: 1rem 0;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
 
   nav a {
-    padding: 0.5rem 1rem;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+  }
+
+  .site-logo {
+    height: 40px;
+    margin-right: 1rem;
   }
 
   .outer-container {
     flex-direction: row;
+  }
+}
+
+/* Additional styles for large screens */
+@media (min-width: 1200px) {
+  nav ul {
+    gap: 1rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+    padding: 0.4rem 0.9rem;
   }
 }
 
