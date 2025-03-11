@@ -654,6 +654,25 @@ footer a:hover {
   transform: translateY(-2px);
 }
 
+/* Privacy and Cookie Policy Links */
+.policy-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0 0 0;
+  padding: 0;
+}
+
+.policy-links a {
+  color: var(--white);
+  text-decoration: none;
+  transition: opacity var(--transition-speed);
+}
+
+.policy-links a:hover {
+  opacity: 0.8;
+}
+
 /* Enhanced Responsive Design */
 @media (max-width: 480px) {
   body {
