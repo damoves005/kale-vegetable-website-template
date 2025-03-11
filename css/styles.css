@@ -431,7 +431,7 @@ main {
 footer {
   background-color: var(--kale-green);
   color: var(--white);
-  padding: 3rem 0;
+  padding-top: 3rem;
   margin-top: 3rem;
 }
 
